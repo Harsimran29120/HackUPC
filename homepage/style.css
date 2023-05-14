@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+body {
+  background-image: url("images/bgvgames.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.whatShallWeDo {
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+}
+
+.logo-section {
+  width: 100%;
+  
+  margin-top: 3rem;
+  height: 12rem;
+  background-color: transparent;
+  /* background-color: red; */
+  
+  align-items: center;
+}
+
+.logo-section a img {
+  width: 20rem;
+  height: 16rem;
+  cursor: pointer;
+}
+
+.main-div {
+  width: 100vw;
+  height: 80vh;
+  /*background-color: rosybrown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.main-div h1 {
+  font-size: 6.5rem;
+  letter-spacing: 0.2rem;
+  font-size: 600;
+}
+
+.memberDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.memberDiv .btn,
+.seeMoreIcon {
+  height: 10vw;
+  min-height: 8.4rem;
+  max-height: 20rem;
+  width: 10vw;
+  min-width: 8.4px;
+  max-width: 20rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  margin-right: 3.5rem;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.memberDiv img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.btn:nth-child(1) {
+  border: none;
+  padding: 200;
+  background: none;
+}
+.memberDiv .btn:hover {
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.9);
+}
+
+.memberDiv .btn span,
+.seeMoreIcon span {
+  width: inherit;
+  /* background-color: red; */
+  position: absolute;
+  bottom: -3.5rem;
+  left: 0;
+  text-transform: capitalize;
+  color: rgb(153, 153, 153);
+  font-size: 2rem;
+}
+
+.fa-plus-circle {
+  font-size: 5vw;
+  color: grey;
+  opacity: 0.8;
+}
+
+.seeMoreIcon {
+  background-color: transparent;
+}
+
+.seeMoreIcon:hover {
+  background-color: #fff;
+}
+
+.seeMoreIcon:hover > .fa-plus-circle {
+  opacity: 1;
+}
+
+.manageProfile {
+  border: 1px solid grey;
+  color: grey;
+  text-transform: uppercase;
+  padding: 0.8rem 2.6rem;
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 20px;
+}
